@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap" rel="stylesheet">
+
+    <title>The Beach</title>
+</head>
+<body>
+
+    <h1>Happiness is being at the beach</h1>
+    
+    <div class="beach-image" id="day-beach">
+        <img src="https://thewacomoms.com/wp-content/uploads/2019/06/waco-moms-summer-beach-tips.png" alt="Day Beach">
+    </div>
+    <div class="beach-image" id="night-beach">
+        <img src="https://img.freepik.com/premium-photo/beach-night-scene-with-moonlight_104785-877.jpg" alt="Night Beach">
+    </div>
+    
+
+    <h2>Beach Packing List</h2>
+    <form>
+        <input type="text" id="item" placeholder="e.g. Sunscreen"> 
+        <input type = "number" id="quantity" placeholder="Quantity">
+        <button onclick="addItem(event)">Add to List</button>
+    </form>
+    <p id="packing-list-display"></p>
+
+    <h2>Packing Basket</h2>
+     <h3>Am I packing everything I need?</h3>
+     <form>
+       <input type="text" id="packing-basket" placeholder="e.g. Sunglasses, Sunscreen, Towels"/>
+       <button onclick="addToBasket(event)">Add item to basket</button>
+     </form>
+     <p id="items-still-to-pack-display"></p>
+
+
+    <script src="script.js" defer>
+
+    </script>
+
+<footer class="footer">
+    <h4>Copyright 2023 by Ariadna Hilorch. All rights reserved.</h4>
+  </footer>
+    
+</body>
+</html>

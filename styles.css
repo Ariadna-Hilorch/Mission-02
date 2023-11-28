@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(240, 240, 183);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+h1 {
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgb(98, 98, 214);
+    text-decoration-style: wavy;
+    animation: bounce 2s ease infinite;
+    margin-bottom: 40px;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+h2 {
+    color: grey;
+    margin-top: 80px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+h3 {
+    color: rgb(148, 148, 247);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+p {
+    color: rgb(81, 81, 124);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+button {
+    font-family: 'Playpen Sans', cursive, bold;
+    text-align: center;
+    color: rgb(88, 7, 21);
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+form {
+    text-align: center;
+}
+
+
+.footer {
+    margin-top: 100px;
+    text-align: center;
+    background-color: white;
+    color: grey;
+    font-size: smaller;
+    font-family: cursive;
+    font-weight: lighter;
+}
